@@ -97,7 +97,6 @@ package-lock.json
 # Local environment
 ############################
 # Ignore real env files anywhere; tracked templates use other names (e.g. `.env.example`).
-**/.env
 !tests/cli/data/*.tar.gz
 
 ############################
@@ -181,3 +180,4 @@ examples/**/types/generated
 
 # Ignore yarn.lock inside templates
 templates/yarn.lock
+config.bat
